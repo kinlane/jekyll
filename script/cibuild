@@ -4,6 +4,11 @@ script/branding
 
 set -e
 
+ruby --version
+python --version
+
+exit 0
+
 if test -z "$TEST_SUITE"; then
   script/test
   script/cucumber
